@@ -1,0 +1,317 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+div, p, input, button, form, h1 {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  margin: 20px 0px 20px 0px;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.container {
+  width: 290px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  margin-top: 30px;
+}
+
+#btn {
+  float: right;
+}
+
+#sub-menu {
+  text-decoration: none;
+  list-style-type: none;
+  border: 1px solid #f4e6d4;
+}
+
+#sub-menu li {
+  border-top: 1px solid #f4e6d4;
+  line-height: 30px;
+}
+
+#sub-menu a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.first_screen {
+  margin: 0;
+  padding: 0;
+  height: 420px;
+}
+
+.first {
+  margin: 0;
+  padding: 0;
+  background: url(../img/bg.png) no-repeat center top / cover;
+  height: 420px;
+}
+
+.first h1 {
+  color: white;
+  padding-top: 40px;
+}
+
+.first ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.first ul {
+  margin-top: 245px;
+}
+
+.first li {
+  float: left;
+  list-style-type: none;
+  margin-right: 7px;
+}
+
+.second_screen {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 420px;
+}
+
+.main_p {
+  margin-top: 80px;
+  font-size: 44px;
+}
+
+.second_p {
+  margin: 0 auto;
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+
+.second_screen a {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.coffe_b {
+  margin: 0;
+  padding: 0;
+  height: 560px;
+}
+
+.coffe_bag li {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #f4e6d4;
+  float: left;
+
+}
+
+.coffe_bag li:hover {
+  background-color: #f4e6d4;
+}
+
+.bag {
+  margin: 0;
+  padding: 0;
+  margin-top: 90px;
+  list-style-type: none;
+  margin-bottom: 120px;
+}
+
+.bag p {
+  text-align: left;
+  padding: 0px 5px;
+  font-weight: bold;
+}
+
+.inst {
+  margin: 0;
+  padding: 0;
+  height: 380px;
+}
+
+.inst p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inst ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.inst li {
+  list-style-type: none;
+  float: left;
+  margin-right: 12px;
+  padding-top: 15px;
+}
+
+.new {
+  margin: 0;
+  padding: 0;
+  background: url(../img/coffe_seeds.png) no-repeat center;
+  height: 230px;
+}
+
+.new h2 {
+  font-size: 36px;
+  color: #fff;
+  padding-top: 60px;
+}
+
+.workers {
+  margin: 0;
+  padding: 0;
+  height: 550px;
+}
+
+.workers p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.workers img {
+  margin: 0 auto;
+}
+
+.main_item2 {
+  margin: 0;
+  padding: 0;
+  height: 1200px;
+}
+
+.news {
+  text-align: center;
+}
+
+#news_p {
+  font-size: 12px;
+}
+
+#main_text2 {
+  font-size: 35px;
+}
+
+.news_text {
+  padding-top: 40px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.news_text span {
+  font-weight: bold;
+}
+
+.maps {
+  margin: 0;
+  padding: 0;
+  height: 650px;
+}
+
+.myMap {
+  height: 565px;
+}
+
+.adress {
+  margin: 0;
+  padding: 0;
+  height: 250px;
+}
+
+
+.metro {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.adress a {
+  color: #000;
+}
+
+.shop {
+  padding-top: 80px;
+  margin-left: 50px;
+}
+
+.int_shop {
+  margin: 0;
+  padding: 0;
+  height: 220px;
+}
+
+#i_s {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  height: 480px;
+}
+
+#bird {
+  float: right;
+  position: relative;
+  top: 35px;
+  left: 7px;
+  z-index: 1;
+}
+
+.footer1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.footer1 h2 {
+  font-size: 16;
+  font-weight: bold;
+}
+
+#main_input {
+
+  width: 270px;
+  height: 200px;
+  border: solid #f4e6d4;
+  margin-bottom: 25px;
+}
+
+#name {
+  width: 270px;
+  height: 60px;
+  border: solid #f4e6d4;
+  margin-bottom: 25px;
+}
+
+
+#subm {
+  padding: 20px 30px 20px 30px;
+  background-color: #f4e6d4;
+  color: #000;
+  text-decoration: none;
+  float: left;
+  margin-left: 45px;
+}
